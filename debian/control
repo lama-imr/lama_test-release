@@ -1,0 +1,12 @@
+Source: ros-indigo-lama-test
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-dfs-explorer, ros-indigo-lama-interfaces, ros-indigo-lj-costmap, ros-indigo-lj-laser-heading, ros-indigo-local-map, ros-indigo-nj-costmap, ros-indigo-nj-escape-crossing, ros-indigo-nj-laser, ros-indigo-nj-oa-costmap, ros-indigo-nj-oa-laser, ros-indigo-pm-mcc, ros-indigo-rviz
+Homepage: http://wiki.ros.org/lama_test
+Standards-Version: 3.9.2
+
+Package: ros-indigo-lama-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-dfs-explorer, ros-indigo-lama-interfaces, ros-indigo-lj-costmap, ros-indigo-lj-laser-heading, ros-indigo-local-map, ros-indigo-nj-costmap, ros-indigo-nj-escape-crossing, ros-indigo-nj-laser, ros-indigo-nj-oa-costmap, ros-indigo-nj-oa-laser, ros-indigo-pm-mcc, ros-indigo-rviz
+Description: The lama_test package
