@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>lama_test</name>
+  <version>0.1.2</version>
+  <description>The lama_test package</description>
+
+  <maintainer email="gael.ecorchard@ciirc.cvut.cz">Gaël Ecorchard</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <url type="website">http://wiki.ros.org/lama_test</url>
+  <url type="repository">https://github.com/lama-imr/lama_test.git</url>
+  <url type="bugtracker">https://github.com/lama-imr/lama_test/issues</url>
+
+
+  <author email="gael.ecorchard@ciirc.cvut.cz">Gaël Ecorchard</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>dfs_explorer</depend>
+  <depend>lama_interfaces</depend>
+  <depend>lj_costmap</depend>
+  <depend>lj_laser_heading</depend>
+  <depend>local_map</depend>
+  <depend>nj_costmap</depend>
+  <depend>nj_escape_crossing</depend>
+  <depend>nj_laser</depend>
+  <depend>nj_oa_costmap</depend>
+  <depend>nj_oa_laser</depend>
+  <depend>pm_mcc</depend>
+  <depend>rviz</depend>
+
+
+  <export>
+  </export>
+</package>
